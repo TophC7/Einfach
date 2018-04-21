@@ -5,7 +5,7 @@ Derived from:
 - https://github.com/omgmog/lightdm-webkit-google
 
 # Screenshot
-![alt text](https://github.com/TophC7/Einfach/blob/master/screenshot.png?raw=true)
+![alt text](https://github.com/TophC7/Einfach/blob/master/Screenshot.png?raw=true)
 
 # How to Install:
   1. Install LightDM `sudo apt-get install lighdm`
