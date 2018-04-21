@@ -1,0 +1,6 @@
+[theme]
+name=Einfach
+description=Simple material theme
+engine=lightdm-webkit2-greeter
+url=index.html
+session=gnome

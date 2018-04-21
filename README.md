@@ -18,4 +18,4 @@ Derived from:
   7. And done you should have your theme ready
 
 # #
-To change wallpaper chage the `background.jpg` file
+To change wallpaper change the `background.jpg` file
