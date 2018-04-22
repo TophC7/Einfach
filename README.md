@@ -9,7 +9,7 @@ Derived from:
 
 # How to Install:
   1. Install LightDM `sudo apt-get install lighdm`
-  2. [Install Webkit2-greeter](https://github.com/TophC7/Einfach/blob/2ca876ec91481c7067267206cdd8c1517d3aafe8/Screenshot.png?raw=true")
+  2. [Install Webkit2-greeter](https://software.opensuse.org/download.html?project=home:antergos&package=lightdm-webkit2-greeter "webkit2-greeter")
   3. Set Webkit2 as your lightdm engine: `sudo nano /etc/lightdm/lightdm.conf` Then set`[LightDM] greeter-session = lightdm-webkit2-greeter`
   4. Select lighdm as your display manger: `sudo dpkg-reconfigure lightdm`
   5. Copy this repository to `cd /usr/share/lightdm-webkit/themes` using `sudo git clone REPOSITORIES_URL`
