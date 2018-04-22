@@ -265,3 +265,7 @@ padding: 0 20px;
 .action-reboot i {
   background-image: url(../ui/reboot.svg);
 }
+
+.action-suspend i {
+  background-image: url(../ui/sleep.svg);
+}

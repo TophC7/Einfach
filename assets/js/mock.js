@@ -48,36 +48,36 @@ if (!('lightdm' in window)) {
     lightdm.can_shutdown = true;
 
     lightdm.users = [
+      {
+          name: "miles",
+          real_name:"Spiderman",
+          display_name: "Miles Morales",
+          image: "https://i.annihil.us/u/prod/marvel/i/mg/f/50/537bcfa1eed73/standard_xlarge.jpg",
+          language: "en_US",
+          layout: null,
+          session: null,
+          logged_in: true
+        },
         {
-            name: "clarkk",
-            real_name: "Superman",
-            display_name: "Clark Kent",
-            image: "http://www.comicsreporter.com/images/uploads/favoritesupermanclarkkentartists_thumb.png",
+            name: "bart",
+            real_name: "Kid Flash",
+            display_name: "Bart Allen",
+            image: "https://orig00.deviantart.net/96ee/f/2012/160/7/0/kidflash_by_sii_sen-d52x9si.png",
             language: "en_US",
             layout: null,
             session: null,
             logged_in: false
         },
         {
-            name: "brucew",
-            real_name: "Batman",
-            display_name: "Bruce Wayne",
-            image: "https://vignette.wikia.nocookie.net/dc-comics-fanfiction/images/3/3c/Bruce_Wayne_%28Earth-6152%29.jpg/revision/latest?cb=20161218201429",
+            name: "richard",
+            real_name: "Nightwing",
+            display_name: "Dick Grayson",
+            image: "https://a.wattpad.com/useravatar/nightwingsbutt420.128.559243.jpg",
             language: "en_US",
             layout: null,
             session: null,
             logged_in: false
         },
-        {
-            name: "peterp",
-            real_name:"Spiderman",
-            display_name: "Peter Parker",
-            image: "https://i.redd.it/nuk4sh97kkty.png",
-            language: "en_US",
-            layout: null,
-            session: null,
-            logged_in: true
-        }
     ];
 
     lightdm.num_users = lightdm.users.length;

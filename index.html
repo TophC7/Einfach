@@ -13,8 +13,10 @@
       />
       <form>
         <select id="user" tabindex="1"/>
-        <input id="pass" placeholder="Password" type="password" tabindex="2"/>
-      
+        <input id="pass" placeholder="Password" type="password" tabindex="2" onclick="submit"/>
+        <button type="submit" tabindex="3" class="btn btn-primary">
+          Sign in
+        </button>
       </form>
     </div>
   </div>
@@ -24,6 +26,9 @@
     </div>
     <div class="action action-reboot" onclick="javascript: lightdm.restart();">
       <i></i> Restart
+    </div>
+    <div class="action action-suspend" onclick="javascript: lightdm.suspend();">
+      <i></i> Sleep
     </div>
     <div id="clock" class="action action-clock">00:00</div>
   </div>
